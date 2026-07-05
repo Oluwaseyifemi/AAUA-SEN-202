@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="SIM Use Case Diagram" id="sim-usecase-1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- System boundary -->
+        <mxCell id="boundary" value="SIM (Security Incident Mapping) System" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="820" height="820" as="geometry" />
+        </mxCell>
+
+        <!-- Actors (left side) -->
+        <mxCell id="actor_reporter" value="Student / Villa Mate&#10;(Reporter)" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="40" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actor_landlord" value="Landlord" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="40" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="actor_staff" value="Staff" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="40" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Actor (right side) -->
+        <mxCell id="actor_admin" value="Security Admin" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="300" width="40" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Use cases -->
+        <mxCell id="uc_register" value="Register / Login" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_report" value="Report Security Incident" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_evidence" value="Attach Evidence&#10;(Photo / Location)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_status" value="View Report Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_map" value="View Incident Map" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_alert" value="Send Real-Time Alert&#10;to Admin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_verify" value="Verify / Review Report" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="300" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_stats" value="Generate Incident&#10;Statistics" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="400" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_manage" value="Manage Users" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="500" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="uc_search" value="Search Past Incidents" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="850" y="600" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Associations: Reporter -->
+        <mxCell id="e1" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_reporter" target="uc_register">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_reporter" target="uc_report">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_reporter" target="uc_status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Associations: Landlord -->
+        <mxCell id="e4" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_landlord" target="uc_register">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_landlord" target="uc_report">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Associations: Staff -->
+        <mxCell id="e6" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_staff" target="uc_register">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_staff" target="uc_report">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Extend: Report Incident -> Attach Evidence -->
+        <mxCell id="e8" value="&lt;&lt;extend&gt;&gt;" style="html=1;endArrow=block;dashed=1;fontSize=10;" edge="1" parent="1" source="uc_report" target="uc_evidence">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Include: Report Incident -> Send Alert -->
+        <mxCell id="e9" value="&lt;&lt;include&gt;&gt;" style="html=1;endArrow=block;dashed=1;fontSize=10;" edge="1" parent="1" source="uc_report" target="uc_alert">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Include: Report Incident -> View Incident Map (feeds map data) -->
+        <mxCell id="e10" value="&lt;&lt;include&gt;&gt;" style="html=1;endArrow=block;dashed=1;fontSize=10;" edge="1" parent="1" source="uc_report" target="uc_map">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- Admin associations -->
+        <mxCell id="e11" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_admin" target="uc_alert">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_admin" target="uc_verify">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_admin" target="uc_stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_admin" target="uc_manage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_admin" target="uc_search">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" style="html=1;endArrow=none;fontSize=11;" edge="1" parent="1" source="actor_admin" target="uc_map">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
