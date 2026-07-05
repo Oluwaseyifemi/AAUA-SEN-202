@@ -1,0 +1,227 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Ishikawa - Campus Insecurity" id="sim-ishikawa-1">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Ishikawa (Fishbone) Diagram: Causes of Rising Community Crime / Insecurity on Campus" style="text;html=1;fontSize=16;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="10" width="1000" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Spine -->
+        <mxCell id="spine" style="html=1;endArrow=block;startArrow=none;strokeWidth=3;rounded=0;" edge="1" parent="1" source="spineStart" target="effectBox">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spineStart" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+
+        <!-- Effect box -->
+        <mxCell id="effectBox" value="Rising Insecurity &amp;&#10;Community Crime&#10;on Campus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== TOP CATEGORY 1: ENVIRONMENT ===================== -->
+        <mxCell id="bone_env" style="html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cat_env" target="spine_pt1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spine_pt1" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_env" value="Environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="Poor street/hostel lighting" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e1l" style="html=1;endArrow=none;" edge="1" parent="1" source="e1" target="bone_env">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="Unfenced / open campus perimeter" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e2l" style="html=1;endArrow=none;" edge="1" parent="1" source="e2" target="bone_env">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="Isolated bushy pathways" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e3l" style="html=1;endArrow=none;" edge="1" parent="1" source="e3" target="bone_env">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="Off-campus lodges far from security" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e4l" style="html=1;endArrow=none;" edge="1" parent="1" source="e4" target="bone_env">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== TOP CATEGORY 2: TECHNOLOGY ===================== -->
+        <mxCell id="bone_tech" style="html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cat_tech" target="spine_pt2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spine_pt2" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="640" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_tech" value="Technology" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" value="No digital incident reporting system" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1l" style="html=1;endArrow=none;" edge="1" parent="1" source="t1" target="bone_tech">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="No CCTV coverage in hostels/lodges" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2l" style="html=1;endArrow=none;" edge="1" parent="1" source="t2" target="bone_tech">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="Slow / no real-time alert to security" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t3l" style="html=1;endArrow=none;" edge="1" parent="1" source="t3" target="bone_tech">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="No incident data/records for pattern tracking" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="330" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t4l" style="html=1;endArrow=none;" edge="1" parent="1" source="t4" target="bone_tech">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== TOP CATEGORY 3: MANAGEMENT/POLICY ===================== -->
+        <mxCell id="bone_mgmt" style="html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cat_mgmt" target="spine_pt3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spine_pt3" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="950" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_mgmt" value="Management / Policy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="140" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="Weak enforcement of campus security rules" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="910" y="210" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m1l" style="html=1;endArrow=none;" edge="1" parent="1" source="m1" target="bone_mgmt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="No landlord vetting / registration process" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="930" y="250" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m2l" style="html=1;endArrow=none;" edge="1" parent="1" source="m2" target="bone_mgmt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="Underfunded / understaffed security unit" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="950" y="290" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m3l" style="html=1;endArrow=none;" edge="1" parent="1" source="m3" target="bone_mgmt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== BOTTOM CATEGORY 1: PEOPLE/SOCIAL ===================== -->
+        <mxCell id="bone_people" style="html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cat_people" target="spine_pt4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spine_pt4" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_people" value="People / Social" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="800" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="Poverty / unemployment among youths" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="290" y="740" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1l" style="html=1;endArrow=none;" edge="1" parent="1" source="p1" target="bone_people">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="Peer pressure / cultism" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="700" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p2l" style="html=1;endArrow=none;" edge="1" parent="1" source="p2" target="bone_people">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="Substance abuse (drugs/alcohol)" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="660" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3l" style="html=1;endArrow=none;" edge="1" parent="1" source="p3" target="bone_people">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="Low awareness of personal safety practices" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4l" style="html=1;endArrow=none;" edge="1" parent="1" source="p4" target="bone_people">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== BOTTOM CATEGORY 2: SECURITY ENFORCEMENT ===================== -->
+        <mxCell id="bone_sec" style="html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cat_sec" target="spine_pt5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spine_pt5" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="790" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_sec" value="Security Enforcement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="800" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="Inadequate security patrol coverage" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="740" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s1l" style="html=1;endArrow=none;" edge="1" parent="1" source="s1" target="bone_sec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="Slow response time to reported incidents" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="700" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s2l" style="html=1;endArrow=none;" edge="1" parent="1" source="s2" target="bone_sec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="No clear/known reporting channel for victims" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="670" y="660" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s3l" style="html=1;endArrow=none;" edge="1" parent="1" source="s3" target="bone_sec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="Fear of retaliation discourages reporting" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="690" y="620" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s4l" style="html=1;endArrow=none;" edge="1" parent="1" source="s4" target="bone_sec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ===================== BOTTOM CATEGORY 3: ECONOMIC ===================== -->
+        <mxCell id="bone_econ" style="html=1;endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cat_econ" target="spine_pt6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="spine_pt6" value="" style="point;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="480" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_econ" value="Economic Factors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="800" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" value="High cost of living pushes petty crime" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="960" y="740" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c1l" style="html=1;endArrow=none;" edge="1" parent="1" source="c1" target="bone_econ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Extortion / illegal levies around campus" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="980" y="700" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c2l" style="html=1;endArrow=none;" edge="1" parent="1" source="c2" target="bone_econ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Theft targeting students with valuables" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="660" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c3l" style="html=1;endArrow=none;" edge="1" parent="1" source="c3" target="bone_econ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
